@@ -135,6 +135,14 @@ we assigning the value of 1 to 20
 so since they are all pointing at the memory of w 
 w = [7, 20, 23, 42]
 
+#######################################
+########################
+#############
 
 
+nums = []
+vals = nums
+val.append(1)
+solution: 
+since val shares the same memory as nums they are the same length
 
