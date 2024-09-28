@@ -1,0 +1,20 @@
+rnage iteration
+my_list = [1, 2]
+
+for v in range(2):
+  my_list.insert(-1, my_list[v])
+
+print(my_list)
+
+range (2) means we reiterate twice on 
+first iteration  of list [1,2]
+v = 0 
+so in mylist what has the value of [v] = 0 
+it is 1 in [1,2]
+ my_list = [1, >> we add 1, 2]
+ my_list = [1, 1, 2]
+
+on the second iteration 
+v=1
+so what is the value of v=1 in my list =  1 
+my_list = [1,1,1,2]
