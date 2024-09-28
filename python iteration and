@@ -69,5 +69,14 @@ in the third iteration, res has been assigned the value of three
 so what is the value of three 
   res = data {three}
       = one
+################################
+##################
+###########################################
 
+.copy() method references new record not assign the same record a different key
+so 
+data = {'name' : 'peter', 'age':30}
+person = data.copy()
+print(id(data) == id(person))
+answer should be false, since they are not the same records 
 
