@@ -114,4 +114,27 @@ so the output will be 1
 
 ########################
 
+slicing a list 
+w = [7, 3, 23, 42]
+x =w[1:]
+y =w[1:]
+z = w
+y[0] = 10
+z[1] = 20 
+ print w 
+when you slice it creates a new memory 
+w = [7, 3, 23, 42]
+       0 1  2   3
+y = [3, 23, 42]
+x = [3, 23, 42]
+so for y[0] = 10
+we are assigning value of 0 to 10, ## no changes on w memory will occur ... 
+we are assigning not inserting 
+for z[1] = 20 
+we assigning the value of 1 to 20 
+so since they are all pointing at the memory of w 
+w = [7, 20, 23, 42]
+
+
+
 
