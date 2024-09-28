@@ -80,3 +80,38 @@ person = data.copy()
 print(id(data) == id(person))
 answer should be false, since they are not the same records 
 
+
+############################
+#####################
+tuple + tuple leads to tuple with concantenation 
+data1 = '1', '2'
+data2 = ('3', '4')
+print(data1 + data2)
+('1', '2', '3', '4')     .../// this is a tuple and not a value 
+
+
+slicing a tuple 
+
+data = (1, 2, 4, 8)
+data = data[1:-1]    
+//////////
+(1, 2, 4, 8)
+0 1 2 3 
+-4 -3 -2 -1
+so data[1:-1]  becomes 2, 4
+///////////
+data = data[0]
+print(date)
+ the result should be 2 
+
+
+#########################################
+##############################
+what is the output of the following
+my_list = [3, 1, -2]
+print(my_list[my_list[-1]])
+so the output will be 1 
+
+########################
+
+
