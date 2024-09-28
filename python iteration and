@@ -17,4 +17,57 @@ it is 1 in [1,2]
 on the second iteration 
 v=1
 so what is the value of v=1 in my list =  1 
+
 my_list = [1,1,1,2]
+
+
+
+
+
+##############################
+##########################################
+What is the output of the following code
+data = [1, 2, 3, none, (), [], ]
+print(len(data))
+empty tuple, list still counts as objects  or elements
+so length is 6 
+
+to remove all items in a dictionary d.clear()
+
+##############################################
+####################################
+
+what is the expected output of the following code 
+
+data = {'one': 'two', 'two': 'three', 'three': 'one'}
+res = data['three']
+
+for _ in range(len(data)):
+  res = data[]
+
+print(res)
+
+1. data is a dictionary 
+2. it is print outiside the loop = so this means we will only print the final value 
+in the range we have 3 key pairs so the lenthg is 3 
+3. res is set to the key value of three =  one 
+4.  the for loop runs 3 times 
+
+
+in the first iteration
+the assigned value of res = data['three'] =  one
+so what is the value of one 
+  res = data {one}
+      = two 
+
+in the second iteration, res has been assigned the value of two 
+so what is the value of two
+  res = data {two}
+      = three
+
+in the third iteration, res has been assigned the value of three
+so what is the value of three 
+  res = data {three}
+      = one
+
+
