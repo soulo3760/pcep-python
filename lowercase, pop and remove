@@ -1,0 +1,55 @@
+##Question
+lower 
+data = 'Hello@Peter!!'
+print(data.lower())
+
+solution
+hello@peter!!
+
+
+##
+consider the following list 
+data = [1,5,10,19,55,30,55,99]
+which code produce new list of the following?
+data = [1,5,10,99]
+
+pop  considers indexes 
+removes takes values 
+solution
+data.pop(5)
+data.remove(19)
+data.remove(55)
+
+###
+l1 = [1,2,3]
+for v in range(len(l1)):
+  li.insert(1, li[v])
+
+print (l1)
+..
+there are three iterations
+in first iterations
+v = 0 
+we are inserting at index zero of the l1, 1
+l1 = [1,1,2,3]
+
+in second iterations
+v = 1
+we are inserting at index 1 of the l1, 1
+l1 = [1,1,1,2,3]
+
+in third iterations
+v = 2
+we are inserting at index 2 of the l1, 1
+l1 = [1,1,1,1,2,3]
+
+### question
+convert tuple into a dictionary 
+t = (('a',1),('b',2),('c',3))
+d = dict(t)                 ## use dict() method to convert - explicit conversion
+print (d)
+expected output:
+{'a':1, 'b':2,'c':3}
+
+### question how many elements does the my_list list contains?
+data
