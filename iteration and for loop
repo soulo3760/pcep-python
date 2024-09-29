@@ -1,0 +1,43 @@
+data = [1, 2, 3, 4, 5, 6]
+
+for i in range(1,6):
+  data[i - 1] = data[i]
+
+for i in range (0, 6):
+  print(data[i], ends=' ')
+solution
+1, 2, 3, 4, 5, 6
+first for loop considers 
+it will go from 1-5 since 6 is not included 
+data=  [1, 2, 3, 4, 5]
+first iteration
+data [i-1] = 1
+data [1-1=0] = data [1]
+so you are saying bring 2 and assigning it to data 1 
+data[0]= data[1]
+data = [2,2,3,4,5,6]
+
+in the second iteration
+data [i-1] = 1
+data [2-1=1] = data [2]
+data [1] = data [2]
+we are swapping what to get 
+data = [2, 3, 3, 4, 5, 6]
+
+on the second iteration
+data [i-1] = 1
+data [3-1=2] = data [3]
+data [2] = data [3]
+we are swapping 
+data = [2, 3, 4, 4,5, 6]
+so by sixth iteration
+data = [2, 3, 4, 5, 6, 6,]
+
+
+in the second for loop
+data to be iterated in for iteration 
+data = [1,2,3,4,5]
+but since it is using the new data set 
+data = [2, 3, 4, 5, 6, 6,]
+
+
