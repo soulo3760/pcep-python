@@ -1,0 +1,51 @@
+PCAP
+###
+what is true about python packages
+1. a code designed to initialize a package state should be placed inside a file called
+_init_.py
+2. _pycache_ is a folder that stores semi-compiled python modules
+the sys.path variable is a list of strings
+
+###
+from dir import file_c
+import dir.file_c
+
+
+##
+assuming that the code below has been executed successfully, which of the following 
+expressions evaluate to true. 
+
+class Class:
+  var = data = 1
+
+  def _init_(self, value):
+    self.prop = value
+Object = Class(2)
+
+_dict_ is a special atribute of classes in python
+it stores in a dictionary format keys and values 
+var and data will be in class 
+prop will be under object_dict_
+###
+###
+what is the expected behaviour of the following code\
+class Super:
+   def make(self):                   ## defines two methods, make and doit
+      return 0
+
+    def doit(self)
+       return self.make()
+
+class sub_A(Super):                      ## sub_A inherits make and doit...overide make with value of 1 
+    def make(self):
+      return 1
+class sub_B(Super):                   ######### inherits make and doit from super 
+    pass
+
+a = sub_A()
+b = sub_B()
+print(a.doit() + b.doit())                 ## a is a subinstance of Sub_A, 
+                                            a.doit, doit in sub_A = 1 
+`                                            b.doit, doit in sub_A = 0
+
+
