@@ -48,4 +48,27 @@ print(a.doit() + b.doit())                 ## a is a subinstance of Sub_A,
                                             a.doit, doit in sub_A = 1 
 `                                            b.doit, doit in sub_A = 0
 
+#############
+########
+#####
+class ClassA
+  var = 1
+
+  def __init__(self, prop):
+    prop1 = prop2 = prop
+class ClassB(ClassA):
+  def __init__(self,prop):
+    prop3 = prop*2
+    super().__init__(prop)
+
+object = ClassB(2)    ## creating an instance of classB 
+
+
+
+####
+MRO conflict 
+child then parent 
+
+######
+###########
 
