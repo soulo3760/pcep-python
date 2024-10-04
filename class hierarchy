@@ -1,0 +1,19 @@
+Class A
+  def a(self):
+    print("A",end=")
+  def b(self):
+    self.a()
+Class B(A)
+  def a(self):
+    print("B",end=")
+  def do(self):
+    self.b()
+Class C(A)
+  def a(self):
+    print("C",end=")
+  def do(self):
+    self.b()
+B().do()    ###### 
+c().do()
+  
+             
