@@ -1,0 +1,44 @@
+combine pandas dataframes and postgres database
+- we need pandas and sqlalchemy
+sqlalchemy object mapping 00m
+convert data to database application and viceversa
+
+psycopg2 - sqlalchemy uses psycopg2 is used as database driver.
+
+use psycopg2 to create database
+
+pip install psycopg2 sqlalchemy
+-create connection
+-create cursor
+-actual SQL
+-commit
+-close connection
+
+
+#connection default db on local postgress schema 
+import psycopg2 
+pyconn = psycopg2.connect
+	(host = 'localhost'
+	user = 'admin'
+	password = '1234'
+	database = 'cryptodb')
+
+#cursor
+pgcursor = pyconn.cursor()
+
+#required code
+from pyscopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+pgconn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+
+#drop db
+pgcursor.execute('DROP DATABASE IF EXISTS cryptodb')
+
+#create db
+pgcursor.execute('CREATE DATABASE cryptodb')
+
+#commit changes
+pgconn.commit()
+
+#close 
+pgconn.close()
+
