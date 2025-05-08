@@ -1,0 +1,12 @@
+#IGNORE ALL CSV FILES
+*.csv
+
+#ingore MP4 files
+*.mp4
+
+
+#specific files or folders to ignore
+
+recordings/
+MOCK_DATA.CSV
+MOCK_DATA.json
