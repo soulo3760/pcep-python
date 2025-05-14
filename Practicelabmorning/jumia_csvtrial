@@ -1,0 +1,2 @@
+jumia_csv = pd.read_csv('jumia.csv')
+jumia_csv.df_head
